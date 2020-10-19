@@ -1,0 +1,2 @@
+# WebUntis-Vertretungsplan-App
+Mit der Vertretungsplan App bist du immer auf dem Laufenden wie es um deinen Stundenplan steht. Du kannst bis zu drei Tage im Voraus einsehen, wann du Vertretung, EVA oder Entfall hast um so nie mehr unnötigerweise zur Schule zu kommen, obwohl der Unterricht entfällt. Die App eignet sich für jeden, der an einer Schule ist, die WebUntis benutzt und das zur App gehörende Vertretungsplan System hat.
