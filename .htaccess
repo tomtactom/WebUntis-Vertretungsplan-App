@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule (.*) $1.php
+	
+<FilesMatch "\.inc.php$">
+	Require all denied
+</FilesMatch>
+
+<FilesMatch "\.android.apk$">
+	Require all denied
+</FilesMatch>
