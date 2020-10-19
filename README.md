@@ -67,7 +67,7 @@ Es gibt eine Internetseite und eine App. Die Internetseite wird von der Bildungs
 
 ## Metadaten
 
-Tom – [Github: @tomtactom](https://github.com/tomtactom) – [WhatsApp](http://wa.me/00491788724382/?text=Hallo+Tom%2C%0D%0AIch+habe+auf+GitHub+dein+Projekt:+WebUntis Vertretungsplan App+-+https%3A%2F%2Fgithub.com%2Ftomtactom%2FWebUntis-Vertretungsplan-App.git+gefunden+und+habe+eine+Anmerkung+dazu.)
+Tom – [Github: @tomtactom](https://github.com/tomtactom) – [WhatsApp](http://wa.me/00491788724382/?text=Hallo+Tom%2C%0D%0AIch+habe+auf+GitHub+dein+Projekt:+WebUntis+Vertretungsplan+App+-+https%3A%2F%2Fgithub.com%2Ftomtactom%2FWebUntis-Vertretungsplan-App.git+gefunden+und+habe+eine+Anmerkung+dazu.)
 Emre - [Github: @emredevde](ttps://github.com/emredevde)
 
  _Wenn du bei dem Projekt mitarbeiten möchtest, schreibe einem der Entwickler per WhatsApp_
