@@ -6,7 +6,7 @@
     Um eine Kopie dieser Lizenz zu sehen, besuchen Sie
     http://creativecommons.org/licenses/by-nc/4.0/
   */
-  if !file_exists() {
+  if !file_exists('./untis.inc.php') {
     die('Bitte folge der Installationsanleitung auf <a href="https://github.com/tomtactom/WebUntis-Vertretungsplan-App/blob/main/README.md#installation" target="_blank" title="WebUntis Vertretungsplan App Installationsanleitung">GitHub</a>');
   }
   // Der header wird eingefügt
