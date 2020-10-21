@@ -1,4 +1,3 @@
-Test
 <?php
   /*
     'Vertretungsplan' von 'Tom Aschmann' ist lizenziert
@@ -6,7 +5,10 @@ Test
     Nicht kommerziell 4.0 International Lizenz
     Um eine Kopie dieser Lizenz zu sehen, besuchen Sie
     http://creativecommons.org/licenses/by-nc/4.0/
-  *//*
+  */
+  if !file_exists() {
+    die('Bitte folge der Installationsanleitung auf <a href="https://github.com/tomtactom/WebUntis-Vertretungsplan-App/blob/main/README.md#installation" target="_blank" title="WebUntis Vertretungsplan App Installationsanleitung">GitHub</a>');
+  }
   // Der header wird eingefügt
   require('header.inc.php');
   // Der Vertretungsplan wird angezeigt
