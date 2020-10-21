@@ -1,3 +1,4 @@
+Hallo
 <?php
   /*
     'Vertretungsplan' von 'Tom Aschmann' ist lizenziert
@@ -5,7 +6,7 @@
     Nicht kommerziell 4.0 International Lizenz
     Um eine Kopie dieser Lizenz zu sehen, besuchen Sie
     http://creativecommons.org/licenses/by-nc/4.0/
-  */
+  *//*
   // Der header wird eingefügt
   require('header.inc.php');
   // Der Vertretungsplan wird angezeigt
@@ -91,7 +92,7 @@
     // Gibt die Stunde aus, wenn es eine Änderung gibt aus dem ersten Teil
   	if($anomaly0 === true) {
   		echo '      <tr class="a0_'.$lesson['id'].'"><td>'.$lesson['timeGridHour'].'</td><td>'.$lesson['subject'].'</td><td>'.str_replace('_GK', '', str_replace('NN', 'Abwesend', str_replace('.', '', $lesson['teacher'][0]))).'</td><td>'.$lesson['room'][0].'</td></tr>
-		
+
 ';
       $val_counter = $va_counter + 1; // Counter (siehe oben)
     }
