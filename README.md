@@ -62,7 +62,7 @@ Es gibt eine Internetseite und eine App. Die Internetseite wird von der Bildungs
 
 ## Versionsverlauf
 
-* 1.0
+* 1.0 - Release
     * Die erste richtige Veröffentlichung.
 
 ## Metadaten
