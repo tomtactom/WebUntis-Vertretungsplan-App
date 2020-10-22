@@ -139,8 +139,7 @@
 	  <?php
 		if ($show_qrcode == true) {
 	  ?>
-	  <div class="field"><img src="./icon/qrcode.png" style="max-width:100%;height:auto;"></div>
-    <p>Wenn du ein Android Smartphone besitzt, scanne diesen QR-Code mit der <a href="https://play.google.com/store/apps/details?id=de.app.stundenplan.stundenplant" target="_blank" rel="external">Vertretungsplan App</a> von Tom Aschmann. Weitere Informationen findest du bei deiner Bildungseinrichtung.</p>
+	  <div class="field"><img src="./icon/qrcode.png" style="max-width:100%;height:auto;"><p>Wenn du ein Android Smartphone besitzt, scanne diesen QR-Code mit der <a href="https://play.google.com/store/apps/details?id=de.app.stundenplan.stundenplant" target="_blank" rel="external">Vertretungsplan App</a> von Tom Aschmann. Weitere Informationen findest du bei deiner Bildungseinrichtung.</p></div>
 	  <?php
 		} else {
 	  ?>

@@ -149,6 +149,7 @@
           </tbody>
         </table>
       </form>
+      &copy;Tom Aschmann
     </footer>
 <?php
     }
