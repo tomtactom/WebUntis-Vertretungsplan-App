@@ -140,6 +140,7 @@
 		if ($show_qrcode == true) {
 	  ?>
 	  <div class="field"><img src="./icon/qrcode.png" style="max-width:100%;height:auto;"></div>
+    <p>Wenn du ein Android Smartphone besitzt, scanne diesen QR-Code mit der <a href="https://play.google.com/store/apps/details?id=de.app.stundenplan.stundenplant" target="_blank" rel="external">Vertretungsplan App</a> von Tom Aschmann. Weitere Informationen findest du bei deiner Bildungseinrichtung.</p>
 	  <?php
 		} else {
 	  ?>
@@ -148,14 +149,20 @@
 <?php if(!empty($msg)) { ?>
           <h4><?php echo $msg; ?></h4>
 <?php } ?>
-          <label><?php echo $fake_captcha; ?> 
+          <label><?php echo $fake_captcha; ?>
             <input type="text" name="captcha" placeholder="<?php echo $fake_captcha; ?>">
           </label>
           <label>Passwort:
             <input type="password" name="password" placeholder="Passwort" title="Gebe hier das Passwort ein um auf den Vertretungsplan zuzugreifen" maxlength="64" autofocus required>
           </label>
           <button type="submit" name="authenticate" title="Du bleibt für 12 Stunden angemeldet">Anmelden</button>
-		  <button type="submit" name="authenticate_app" title="Scanne den QR-Code um die App benutzen zu können">QR-Code Scannen</button>
+          <?php
+              if (!file_exists('./icon/qrcode.png')) {
+                echo '<small>Ein QR-Code zur Anmeldung per App ist noch nicht verfügbar. Bitte kontaktiere den Administrator dieser Webseite, einen zu erstellen.</small>';
+              } else {
+          ?>
+		        <button type="submit" name="authenticate_app" title="Scanne den QR-Code um die App benutzen zu können">QR-Code Scannen</button>
+          <?php } ?>
         </form>
 		<?php } ?>
       </section>
